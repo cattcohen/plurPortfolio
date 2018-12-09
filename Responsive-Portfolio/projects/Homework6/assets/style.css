@@ -1,0 +1,76 @@
+
+
+button {	
+	margin: 10px;
+    display: inline;
+    background-color: forestgreen;
+}
+
+#gif-form {
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#add-gif {
+	margin-left: 15px;
+}
+
+#display-gifs {
+	
+	display: inline;
+}
+
+body {
+    background-image: url("https://media.giphy.com/media/Qgfz2N36MgUBG/giphy.gif");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    
+    
+
+}
+
+.btn-info {
+    background-color: #4CAF50;
+    border-color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-info:hover {
+    background-color: #FF1493;
+    border-color: 	#ADFF2F;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 20px;
+}
+h2 {
+    line-height: 50px;
+}
+
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#buttons-view {
+    margin: 20px;
+    
+}
+
+
+#display-gifs {
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#add-gif{
+    color:white;
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+

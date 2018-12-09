@@ -1,0 +1,60 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    height: 100%;
+  }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+
+
+  .sidenav {
+    width: 160px;
+    padding-top: 20px;
+    background-color: lightgray;
+    height: 100%;
+    position: fixed;
+    display: block;
+    float: left;
+ 
+  }
+
+  .sidenav a:hover {
+    color: hotpink;
+  }
+  
+  .body {
+    margin-left: 200px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    
+  }
+
+  footer {
+    background-color: lavender;
+    padding: 25px;
+  }
+
+
+@media screen and (max-width: 767px) {
+        .sidenav {
+          height: 100%;
+          padding: 15px;
+        }
+        .row.content {
+          height:auto;
+        } 
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+
+
+        .container {
+            margin-left: 200px;
+            padding: 1px 16px;
+            height: 1000px;
+          } 
+       
+        
+
